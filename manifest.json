@@ -1,0 +1,50 @@
+{
+  "name": "radz.xyz — AI Content Creator",
+  "short_name": "radz.xyz",
+  "description": "AI-powered content creation platform for articles, social media, images, and SEO.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090e",
+  "theme_color": "#6366f1",
+  "orientation": "any",
+  "lang": "en",
+  "categories": ["productivity", "business", "utilities"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/dashboard.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Dashboard"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Article Generator",
+      "short_name": "Articles",
+      "description": "Generate AI-powered articles",
+      "url": "/#article",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Social Media",
+      "short_name": "Social",
+      "description": "Create social media posts",
+      "url": "/#social",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

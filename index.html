@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>radz.xyz — AI Content Creator Platform</title>
+  <meta name="description" content="Generate articles, social media posts, image prompts, and SEO content with AI. The all-in-one platform for modern content creators." />
+  <meta name="keywords" content="AI content creator, article generator, social media AI, SEO tools, image prompts, content marketing" />
+  <meta name="author" content="radz.xyz" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="radz.xyz — AI Content Creator Platform" />
+  <meta property="og:description" content="Generate articles, social media posts, image prompts, and SEO content with AI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://radz.xyz" />
+  <meta property="og:image" content="https://radz.xyz/og-image.png" />
+  <meta property="og:site_name" content="radz.xyz" />
+
+  <!-- Twitter/X Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="radz.xyz — AI Content Creator Platform" />
+  <meta name="twitter:description" content="Generate articles, social media posts, image prompts, and SEO content with AI." />
+  <meta name="twitter:image" content="https://radz.xyz/og-image.png" />
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "radz.xyz",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "AI-powered content creation platform for articles, social media, images, and SEO.",
+    "url": "https://radz.xyz",
+    "author": { "@type": "Organization", "name": "radz.xyz" },
+    "offers": [
+      { "@type": "Offer", "name": "Free Plan", "price": "0", "priceCurrency": "USD" },
+      { "@type": "Offer", "name": "Pro Plan", "price": "19", "priceCurrency": "USD" },
+      { "@type": "Offer", "name": "Creator Plan", "price": "49", "priceCurrency": "USD" },
+      { "@type": "Offer", "name": "Agency Plan", "price": "99", "priceCurrency": "USD" }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── SIDEBAR NAV ── -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+      <span class="logo-mark">R</span>
+      <span class="logo-text">radz<span class="logo-dot">.xyz</span></span>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="nav-section-label">Main</div>
+      <a href="#" class="nav-item active" data-view="dashboard">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+        Dashboard
+      </a>
+      <a href="#" class="nav-item" data-view="article">
+        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        Article Generator
+      </a>
+      <a href="#" class="nav-item" data-view="image">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        Image Generator
+      </a>
+      <a href="#" class="nav-item" data-view="social">
+        <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        Social Media
+      </a>
+
+      <div class="nav-section-label">Tools</div>
+      <a href="#" class="nav-item" data-view="seo">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        SEO Tools
+      </a>
+      <a href="#" class="nav-item" data-view="library">
+        <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        Content Library
+      </a>
+      <a href="#" class="nav-item" data-view="pricing">
+        <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        Pricing
+      </a>
+
+      <div class="nav-section-label">Account</div>
+      <a href="#" class="nav-item" data-view="settings">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        Settings
+      </a>
+      <a href="#" class="nav-item" data-view="contact">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Contact
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="plan-badge">
+        <span class="plan-icon">⚡</span>
+        <div>
+          <div class="plan-name">Free Plan</div>
+          <div class="plan-limit">5/10 generations used</div>
+        </div>
+      </div>
+      <div class="usage-bar"><div class="usage-fill" style="width:50%"></div></div>
+    </div>
+  </aside>
+
+  <!-- ── MOBILE HEADER ── -->
+  <header class="mobile-header">
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <span class="mobile-logo">radz<span>.xyz</span></span>
+    <button class="theme-toggle-mobile" id="themeToggleMobile" aria-label="Toggle theme">
+      <svg viewBox="0 0 24 24" class="icon-sun"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+  </header>
+
+  <!-- ── MAIN CONTENT ── -->
+  <main class="main-content" id="mainContent">
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+      <div class="topbar-left">
+        <h1 class="page-title" id="pageTitle">Dashboard</h1>
+        <span class="page-subtitle" id="pageSubtitle">Welcome back — let's create something</span>
+      </div>
+      <div class="topbar-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg viewBox="0 0 24 24" class="icon-sun"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg viewBox="0 0 24 24" class="icon-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <div class="api-key-status" id="apiKeyStatus" title="Configure API Key in Settings">
+          <span class="status-dot"></span>
+          <span class="status-text">No API Key</span>
+        </div>
+        <button class="btn btn-primary btn-sm" data-view="pricing">Upgrade ↗</button>
+      </div>
+    </div>
+
+    <!-- VIEWS -->
+    <div id="view-dashboard" class="view active"></div>
+    <div id="view-article" class="view"></div>
+    <div id="view-image" class="view"></div>
+    <div id="view-social" class="view"></div>
+    <div id="view-seo" class="view"></div>
+    <div id="view-library" class="view"></div>
+    <div id="view-pricing" class="view"></div>
+    <div id="view-settings" class="view"></div>
+    <div id="view-contact" class="view"></div>
+
+  </main>
+
+  <!-- ── OVERLAY ── -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <!-- ── TOAST ── -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- ── API KEY MODAL ── -->
+  <div class="modal-overlay" id="apiModal">
+    <div class="modal">
+      <button class="modal-close" id="modalClose">✕</button>
+      <h2 class="modal-title">Connect Your AI</h2>
+      <p class="modal-desc">Enter your Anthropic API key to enable real AI generation. Your key is stored locally and never sent to our servers.</p>
+      <input type="password" class="modal-input" id="apiKeyInput" placeholder="sk-ant-api03-..." />
+      <div class="modal-actions">
+        <button class="btn btn-outline" id="modalCancel">Cancel</button>
+        <button class="btn btn-primary" id="modalSave">Save Key</button>
+      </div>
+      <p class="modal-note">Don't have a key? <a href="https://console.anthropic.com" target="_blank">Get one free →</a></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="content.js"></script>
+  <script src="image-generator.js"></script>
+  <script src="social-posts.js"></script>
+</body>
+</html>
